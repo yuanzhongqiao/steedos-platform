@@ -22,101 +22,124 @@ Steedos Low-code PaaS platform is an open-source alternative to Salesforce Platf
  🤖 🎨 🚀
 </h3>
 
-## Click, Not Code
-
-With its intuitive drag-and-drop interface, Steedos empowers both developers and non-technical users to create custom applications without the need for extensive coding knowledge.   
-
-- **Design your Data**: Steedos provides powerful data management functions, including data modeling, data storage, and data analysis.
-  - [x] Objects [Docs](https://docs.steedos.com/no-code/customize/object) 
-  - [x] Fields [Docs](https://docs.steedos.com/no-code/customize/fields/) 
-  - [x] Validation Rules [Docs](https://docs.steedos.com/no-code/customize/validation-rules) 
-- **Building Apps**: Drag-and-drop interface for building applications.
-  - [x] Apps [Docs](https://docs.steedos.com/no-code/application/app)
-  - [x] Tabs [Docs](https://docs.steedos.com/no-code/application/tab)
-  - [x] Micro Pages [Docs](https://docs.steedos.com/no-code/amis/) **vs** [Salesforce Lightning App Builder](https://help.salesforce.com/s/articleView?id=sf.lightning_app_builder_overview.htm&type=5)
-  - [x] List View [Docs](https://docs.steedos.com/no-code/customize/listview/)
-  - [x] Page Layout [Docs](https://docs.steedos.com/no-code/customize/page-layout)
-- **Secure Your Data**: Steedos provides enterprise-level security features to ensure your data is protected at all times.
-  - [x] Object Permissions [Docs](https://docs.steedos.com/admin/permissions/object-permissions)
-  - [x] Field Permissions [Docs](https://docs.steedos.com/admin/permissions/field-permissions)
-  - [x] App Permissions [Docs](https://docs.steedos.com/admin/permissions/app-permissions)
-  - [x] Division [Docs](https://docs.steedos.com/admin/permissions/division)
-  - [x] Sharing Rules [Docs](https://docs.steedos.com/admin/permissions/sharing-rules)
-  - [x] Restriction Rules [Docs](https://docs.steedos.com/admin/permissions/restriction-rules)
-  - [x] Profiles [Docs](https://docs.steedos.com/admin/permissions/profile)
-  - [x] Permission Sets [Docs](https://docs.steedos.com/admin/permissions/permission-set)
-- **Automate Your Business Processes**: Steedos provides flexible workflow management capabilities that help businesses customize their workflows and improve work efficiency.
-  - [x] Automated Actions [Docs](https://docs.steedos.com/automation/automated-actions)
-  - [x] Workflow Rules [Docs](https://docs.steedos.com/automation/workflow-rules)
-  - [x] Process Approval [Docs](https://docs.steedos.com/automation/approval-process)
-
-## Extend Steedos with Code
-
-Metadata can be synchronized as code, version controlled, and automated. For complex business logic, front-end and back-end code can be written to implement it。
-
-![Steedos Overview](https://www.steedos.org/img/platform/steedos-dx.png)
-
-Steedos DX introduces a new way to organize your metadata and distribute your apps. You can benefit from modern collaboration technologies such as Git to version control everything across your team - your code, your org configuration, and your metadata. 
-
-  - [x] create-steedos-app [Docs](https://docs.steedos.com/developer/create-steedos-app)
-  - [x] Steedos Packages [Docs](https://docs.steedos.com/developer/package)
-  - [x] Metadata Sync with Source Code [Docs](https://docs.steedos.com/developer/sync-metadata)
-  - [x] API [Docs](https://docs.steedos.com/api/rest-api/)
-  - [x] Object Triggers [Docs](https://docs.steedos.com/developer/action-trigger)
-  - [x] Custom API [Docs](https://docs.steedos.com/developer/action-api)
-
-## Enterprise Plugins
-
-Steedos enterprise can seamlessly integrating with third-party open source projects through plugins, to build an integrated PaaS platform for enterprise.
-
-  - [x] [KeyCloak](https://github.com/keycloak/keycloak) Open Source Identity and Access Management For Modern Applications and Services, **vs** [Salesfore Identity](https://help.salesforce.com/s/articleView?id=sf.identity_overview.htm&type=5)
-  - [x] [Metabase](https://github.com/metabase/metabase) Business Intelligence, Dashboards, and Data Visualization, **vs** [Salesforce Reports and Dashboards](https://help.salesforce.com/s/articleView?id=sf.analytics_overview.htm&type=5)
-  - [ ] [n8n](https://github.com/n8n-io/n8n) Build complex automations 10x faster. **vs** [Salesforce Flow Builder](https://help.salesforce.com/s/articleView?id=sf.flow.htm&language=en_US&type=5)
-  - [x] [ToolJet](https://github.com/ToolJet/ToolJet/) Rapid internal tool development platform
-  - [x] [Node-RED](https://github.com/node-red/node-red) ([Docs](https://docs.steedos.com/plugins/node-red)): Low-code programming for event-driven applications.
-
-## Getting Started
-
-Steedos is essentially a set of npm packages that can be installed over npm. 
-
-The easiest way to install Steedos is to use the command line tool that helps you create a template project. You can run this command anywhere in a new empty repository or within an existing repository, it will create a new directory containing the scaffolded files.
-
-```bash
-npx create-steedos-app my-app
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto">
+  <a href="https://www.steedos.org" rel="nofollow">
+    <img alt="斯蒂多斯" src="https://camo.githubusercontent.com/2861db5f04e9259e3f4667bb33d61bbc6c49730dbc2ffb25e2f0537ade5a9b79/68747470733a2f2f7777772e73746565646f732e6f72672f696d672f6c6f676f2e706e67" width="80" data-canonical-src="https://www.steedos.org/img/logo.png" style="max-width: 100%;">
+  </a>
+</p>
+<h1 align="center" tabindex="-1" dir="auto"><a id="user-content---steedos-platform" class="anchor" aria-hidden="true" tabindex="-1" href="#--steedos-platform"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  Steedos平台
+</font></font></h1>
+<p align="center" dir="auto">
+<a href="/steedos/steedos-platform/blob/master/README_cn.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中文</font></font></a>
+<a href="https://docs.steedos.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">· 文档</font></font></a>
+<a href="https://github.com/steedos-labs/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">· Steedos Labs</font></font></a>
+</p>
+<p align="center" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Steedos 低代码 PaaS 平台是 Salesforce Platform 的开源替代品。</font><font style="vertical-align: inherit;">它提供了一个强大而灵活的平台，用于快速轻松地构建企业级应用程序。  
+</font></font></p>
+<h3 align="center" tabindex="-1" dir="auto"><a id="user-content----" class="anchor" aria-hidden="true" tabindex="-1" href="#---"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+ 🤖🎨🚀
+</font></font></h3>
+<h2 tabindex="-1" dir="auto"><a id="user-content-click-not-code" class="anchor" aria-hidden="true" tabindex="-1" href="#click-not-code"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">点击，而不是代码</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凭借其直观的拖放界面，Steedos 使开发人员和非技术用户能够创建自定义应用程序，而无需广泛的编码知识。</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设计您的数据</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Steedos 提供强大的数据管理功能，包括数据建模、数据存储和数据分析。
+</font></font><ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象</font></font><a href="https://docs.steedos.com/no-code/customize/object" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字段</font></font><a href="https://docs.steedos.com/no-code/customize/fields/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">验证规则</font></font><a href="https://docs.steedos.com/no-code/customize/validation-rules" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+</ul>
+</li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建应用程序</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：用于构建应用程序的拖放界面。
+</font></font><ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用</font></font><a href="https://docs.steedos.com/no-code/application/app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">程序文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选项卡</font></font><a href="https://docs.steedos.com/no-code/application/tab" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微型页面</font></font><a href="https://docs.steedos.com/no-code/amis/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font></strong> <a href="https://help.salesforce.com/s/articleView?id=sf.lightning_app_builder_overview.htm&amp;type=5" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Salesforce Lightning 应用程序生成器</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列表查看</font></font><a href="https://docs.steedos.com/no-code/customize/listview/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面布局</font></font><a href="https://docs.steedos.com/no-code/customize/page-layout" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+</ul>
+</li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保护您的数据</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Steedos 提供企业级安全功能，确保您的数据始终受到保护。
+</font></font><ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象权限</font></font><a href="https://docs.steedos.com/admin/permissions/object-permissions" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字段权限</font></font><a href="https://docs.steedos.com/admin/permissions/field-permissions" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序权限</font></font><a href="https://docs.steedos.com/admin/permissions/app-permissions" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部门</font></font><a href="https://docs.steedos.com/admin/permissions/division" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">共享规则</font></font><a href="https://docs.steedos.com/admin/permissions/sharing-rules" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">限制规则</font></font><a href="https://docs.steedos.com/admin/permissions/restriction-rules" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font><a href="https://docs.steedos.com/admin/permissions/profile" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">权限集</font></font><a href="https://docs.steedos.com/admin/permissions/permission-set" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+</ul>
+</li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动化您的业务流程</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Steedos 提供灵活的工作流程管理功能，帮助企业定制工作流程并提高工作效率。
+</font></font><ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动操作</font></font><a href="https://docs.steedos.com/automation/automated-actions" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作流程规则</font></font><a href="https://docs.steedos.com/automation/workflow-rules" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">流程审批</font></font><a href="https://docs.steedos.com/automation/approval-process" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font></font></a></li>
+</ul>
+</li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-extend-steedos-with-code" class="anchor" aria-hidden="true" tabindex="-1" href="#extend-steedos-with-code"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用代码扩展 Steedos</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元数据可以作为代码同步、版本控制和自动化。</font><font style="vertical-align: inherit;">对于复杂的业务逻辑，可以编写前后端代码来实现。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5c25b372185e633ca23d05a5ef8782a47b61299b8f4325b27e178685aefa3ddb/68747470733a2f2f7777772e73746565646f732e6f72672f696d672f706c6174666f726d2f73746565646f732d64782e706e67"><img src="https://camo.githubusercontent.com/5c25b372185e633ca23d05a5ef8782a47b61299b8f4325b27e178685aefa3ddb/68747470733a2f2f7777772e73746565646f732e6f72672f696d672f706c6174666f726d2f73746565646f732d64782e706e67" alt="Steedos 概述" data-canonical-src="https://www.steedos.org/img/platform/steedos-dx.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Steedos DX 引入了一种组织元数据和分发应用程序的新方法。</font><font style="vertical-align: inherit;">您可以受益于现代协作技术（例如 Git）对团队中的所有内容进行版本控制 - 您的代码、组织配置和元数据。</font></font></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建steedos-app</font></font><a href="https://docs.steedos.com/developer/create-steedos-app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Steedos 包</font></font><a href="https://docs.steedos.com/developer/package" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><a href="https://docs.steedos.com/developer/sync-metadata" rel="nofollow"><font style="vertical-align: inherit;">元数据与源代码文档</font></a><font style="vertical-align: inherit;">同步</font></font><a href="https://docs.steedos.com/developer/sync-metadata" rel="nofollow"><font style="vertical-align: inherit;"></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API</font></font><a href="https://docs.steedos.com/api/rest-api/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象触发器</font></font><a href="https://docs.steedos.com/developer/action-trigger" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义API</font></font><a href="https://docs.steedos.com/developer/action-api" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-enterprise-plugins" class="anchor" aria-hidden="true" tabindex="-1" href="#enterprise-plugins"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业插件</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Steedos企业可以通过插件与第三方开源项目无缝集成，为企业构建一体化的PaaS平台。</font></font></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/keycloak/keycloak"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于现代应用程序和服务的KeyCloak</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源身份和访问管理</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font></strong> <a href="https://help.salesforce.com/s/articleView?id=sf.identity_overview.htm&amp;type=5" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Salesfore Identity</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/metabase/metabase"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Metabase</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商业智能、仪表板和数据可视化</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font></strong> <a href="https://help.salesforce.com/s/articleView?id=sf.analytics_overview.htm&amp;type=5" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Salesforce 报表和仪表板</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://github.com/n8n-io/n8n"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n8n</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建复杂自动化的速度提高 10 倍。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font></strong> <a href="https://help.salesforce.com/s/articleView?id=sf.flow.htm&amp;language=en_US&amp;type=5" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Salesforce Flow Builder 对比</font></font></a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/ToolJet/ToolJet/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ToolJet</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Rapid 内部工具开发平台</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/node-red/node-red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node-RED</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="https://docs.steedos.com/plugins/node-red" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）：事件驱动应用程序的低代码编程。</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-getting-started" class="anchor" aria-hidden="true" tabindex="-1" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Steedos 本质上是一组可以通过 npm 安装的 npm 软件包。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 Steedos 最简单的方法是使用命令行工具来帮助您创建模板项目。</font><font style="vertical-align: inherit;">您可以在新的空存储库或现有存储库中的任何位置运行此命令，它将创建一个包含脚手架文件的新目录。</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>npx create-steedos-app my-app
+<span class="pl-c1">cd</span> my-app
+yarn
+yarn start</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npx create-steedos-app my-app
 cd my-app
 yarn
-yarn start
-```
-
-or you can try the following sample projects.
-
-- [Project Template](https://github.com/steedos/steedos-project-template)
-- [Examples](https://github.com/steedos/steedos-examples)
-
-## Awesome Steedos Apps
-
-💻 🎉 An awesome & curated list of best applications powered by Steedos Platform.
-
-- [Steedos Projects](https://github.com/steedos-labs/project): Track and manage your projects, milestones, tasks, blocked tasks, overdue tasks, time, expense budgets, and has detailed reporting capabilities.
-- [Salesforce CRM Clone](https://github.com/steedos-labs/salesforce): Salesforce alternative, provides everything you need to manage your business. Generate the best leads, manage opportunities through the sales pipleline, and cultivate relationships with exisiting accounts. Plus, forecast revenues, set up sales territories, and organize your reps into selling teams.
-- [Contract Management](https://github.com/steedos-labs/contract): With contract management software for Steedos, you can centralize contract storage, strengthen compliance, automate and accelerate the entire contract lifecycle, and much more.
-
-[Find more](https://github.com/steedos-labs/)
-
-## Steedos Docs
-
-For more information, please refer to the official website of [docs.steedos.com](https://docs.steedos.com/)
-
-## Contribute to Steedos Platform
-
-From reporting bugs to proposing improvement suggestions, every contribution is worthy of appreciation and welcome. If you are going to modify the code to fix a bug or implement a new function, please create an issue first, so that we can ensure that your work is not wasted.
-
-See [Contributing Guide](/CONTRIBUTING.md) for how to run and build our platform source code.
-
-## Licence
-
-Steedos Platform is licensed under the MIT. Everyone can build and distribute steedos apps for free. 
-
-## Keep in Contact
-
-If you have any questions or want to talk to other users of Steedos Platform , please jump to GitHub for discussion [Click to Discuss](https://github.com/steedos/steedos-platform/discussions).
+yarn start" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者您可以尝试以下示例项目。</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/steedos/steedos-project-template"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目模板</font></font></a></li>
+<li><a href="https://github.com/steedos/steedos-examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-awesome-steedos-apps" class="anchor" aria-hidden="true" tabindex="-1" href="#awesome-steedos-apps"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很棒的 Steedos 应用程序</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻 🎉 由 Steedos 平台提供支持的精彩且精选的最佳应用程序列表。</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/steedos-labs/project"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Steedos Projects</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：跟踪和管理您的项目、里程碑、任务、阻塞任务、逾期任务、时间、费用预算，并具有详细的报告功能。</font></font></li>
+<li><a href="https://github.com/steedos-labs/salesforce"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Salesforce CRM 克隆</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Salesforce 替代方案，提供管理业务所需的一切。</font><font style="vertical-align: inherit;">产生最好的销售线索，通过销售渠道管理机会，并培养与现有客户的关系。</font><font style="vertical-align: inherit;">此外，预测收入、设置销售区域并将您的代表组织成销售团队。</font></font></li>
+<li><a href="https://github.com/steedos-labs/contract"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">合同管理</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：借助 Steedos 合同管理软件，您可以集中合同存储、加强合规性、自动化并加速整个合同生命周期等等。</font></font></li>
+</ul>
+<p dir="auto"><a href="https://github.com/steedos-labs/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">寻找更多</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-steedos-docs" class="anchor" aria-hidden="true" tabindex="-1" href="#steedos-docs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Steedos 文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息请参考</font></font><a href="https://docs.steedos.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docs.steedos.com官网</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contribute-to-steedos-platform" class="anchor" aria-hidden="true" tabindex="-1" href="#contribute-to-steedos-platform"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 Steedos 平台做出贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从报告错误到提出改进建议，每一个贡献都值得赞赏和欢迎。</font><font style="vertical-align: inherit;">如果您要修改代码来修复错误或实现新功能，请先创建问题，以便我们确保您的工作不被浪费。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关如何运行和构建我们的平台源代码，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="/steedos/steedos-platform/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-licence" class="anchor" aria-hidden="true" tabindex="-1" href="#licence"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Steedos 平台已获得 MIT 许可。</font><font style="vertical-align: inherit;">每个人都可以免费构建和分发 steedos 应用程序。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-keep-in-contact" class="anchor" aria-hidden="true" tabindex="-1" href="#keep-in-contact"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保持联络</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有任何疑问或者想与Steedos平台的其他用户交谈，请跳转到GitHub进行讨论</font></font><a href="https://github.com/steedos/steedos-platform/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">点击讨论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
